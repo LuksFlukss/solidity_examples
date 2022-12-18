@@ -17,7 +17,6 @@ contract Variables {
         uint256 myUnit256;
         string myString;
     }
-
     MyStruct public myStruct = MyStruct(1, "Hola Pepe");
 
     function getValue() public pure returns(uint) {
